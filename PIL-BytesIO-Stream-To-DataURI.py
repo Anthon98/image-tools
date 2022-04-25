@@ -21,7 +21,7 @@ def convert_to_base64_string(img_stream: BinaryIO) -> str:
 
 
 def base64_data_uri_format(base64_string: str) -> str:
-    """Gives the DataURI prefix for the image base64 string to mimic front-end CSS image generation."""
+    """Gives the DataURI prefix for the image base64 string to mimic front-end image generation."""
     return 'data:image/webp;base64,%s' % base64_string
 
 
