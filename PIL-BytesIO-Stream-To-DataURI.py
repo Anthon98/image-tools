@@ -26,7 +26,7 @@ def base64_data_uri_format(base64_string: str) -> str:
 
 
 def handle() -> None:
-    """The core handler function."
+    """The core handler function."""
     image_stream = create_cache_image(name='test_image')
     image_base64_string = convert_to_base64_string(img_stream=image_stream)
     image_data_uri = base64_data_uri_format(base64_string=image_base64_string)
